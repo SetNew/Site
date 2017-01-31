@@ -1,0 +1,152 @@
+// Geral
+
+@font-face {
+    font-family: logo;
+    src: url("../font/font-logo/Quantify.ttf");
+}
+
+// nav {box-shadow: none;}
+
+h1 {margin: 0; font-size:30px;}
+
+p {color: $cor-secundaria;}
+
+nav{
+	border-bottom: 1px solid $cor-principal;
+	box-shadow: none;
+}
+
+
+// Pagina home
+.arrow{
+	margin: 0 48.2%;
+
+	.material-icons{
+		margin-top: 50px;
+		font-size: 3em;
+	}
+}
+
+.material-icons {
+	color:$cor-principal;
+}
+
+.centraliza {
+	margin: 0 auto; 
+}
+
+.retangulo {
+	border: solid 0.1mm $cor-secundaria;
+	margin-top: 10em;
+	text-align: center;
+	padding: 1em;
+	width: 40%;
+	.slongan{
+		font-size: 30px;
+		letter-spacing: 0.1em;
+	}
+}
+
+.logo-set {
+	font-family: logo;
+	color: $cor-secundaria;
+	.logo-new {
+		color: $cor-principal;
+	}
+}
+
+
+
+.bgParallax {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	min-height: 100%;
+	background-position: 50% 0;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+ 
+
+.servicos {
+	background: url(../img/line.svg) #424242;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 4px 80px;
+}
+
+
+.sub-titulo{
+	color: $cor-principal;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.descricao{
+	color: $cor-secundaria;
+	text-align: center;
+	width: 60%;
+}
+
+.consultoria{
+	padding-right: 10px;
+}
+
+.cor-primaria{
+	color: $cor-principal;
+}
+
+.cor{
+	color: $cor-secundaria;
+	letter-spacing: 0.2em;
+}
+
+.icon {
+	text-align: center;
+}
+
+.desc-servi{
+	text-align: left;
+	padding: 0 30px;
+}
+
+.icon-ir{
+	font-size: 1.1em;
+	padding-bottom: 20px;
+}
+
+.potfolio{
+	background: url(../img/line.svg) #212121 no-repeat;
+	background-position: center top;
+	background-size: 4px 80px;
+
+	.descricao{
+		margin-bottom: 30px;
+	}
+}
+
+/* Define backgrounds dos divs */
+#home {background-image: url(../img/fundo.jpg);}
+
+.arrow-servicos{
+	margin-bottom: 0;
+}
+
+.equipe{
+	background: url(../img/line.svg) #616161 no-repeat;
+	background-position: center top;
+	background-size: 4px 80px;
+}
+
+.img-redondo{
+	width: 100px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 20px;
+}
+
+
+.contato{
+	background-color: #000000;
+}

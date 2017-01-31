@@ -1,0 +1,49 @@
+
+@media screen and (max-width:#{$mobile}) {
+	.retangulo {
+		width: 80%;
+	}
+
+	.arrow {
+		margin: 0 44%;
+	}
+
+	.descricao{
+		width: 100%;
+	}
+
+	.servicos-des{
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.slongan{
+		font-size: 24px;
+		line-height: 40px;
+
+	}
+
+	.logo-set{
+		font-size: 36px;
+	}
+
+	.arrow-servicos{
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (min-width:#{$mobile}) and (max-width: #{$tablet}) {
+	.retangulo {
+		width: 50%;
+	}
+
+	.arrow {
+		margin: 0 48%;
+	}
+
+	.descricao{
+		width: 100%;
+	}
+}
+
+

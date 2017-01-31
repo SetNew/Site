@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* difinindo fontes */
+@font-face {
+    font-family: Trirong;
+    src: url("../font/Trirong/Trirong-Light.ttf");
+}
+
+@font-face {
+    font-family: Open_Sans;
+    src: url("../font/Open_Sans/OpenSans-Light.ttf");
+}
+
+p {
+    font-family: Trirong;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+label,
+button {
+    font-family: Open_Sans;
+}
+
+
+::-webkit-input-placeholder {
+    font-family: Open_Sans;
+}
+
+::-moz-placeholder {
+    font-family: Open_Sans;
+}
+
+:-ms-input-placeholder {
+    font-family: Open_Sans;
+}
+
+/* difinindo fontes */
+
+
+
+
+
