@@ -16,7 +16,9 @@ nav{
 	box-shadow: none;
 }
 
-
+button.btn.waves-effect.envio{
+	background-color: $cor-principal;
+}
 
 
 // Pagina home
@@ -150,5 +152,11 @@ nav{
 
 
 .contato{
-	background-color: #000000;
+	background: url("../img/line.svg") no-repeat 4px 80px,
+	url("../img/fundo-contato.jpg");
+	background-position: center top;
+}
+
+.formulario{
+	padding-top: 50px;
 }

@@ -6643,6 +6643,9 @@ nav {
   border-bottom: 1px solid #f7ac53;
   box-shadow: none; }
 
+button.btn.waves-effect.envio, button.waves-effect.envio.btn-large {
+  background-color: #f7ac53; }
+
 .arrow {
   margin: 0 48.2%; }
   .arrow .material-icons {
@@ -6745,7 +6748,11 @@ nav {
   margin-right: 20px; }
 
 .contato {
-  background-color: #000000; }
+  background: url("../img/line.svg") no-repeat 4px 80px, url("../img/fundo-contato.jpg");
+  background-position: center top; }
+
+.formulario {
+  padding-top: 50px; }
 
 @media screen and (max-width: 600px) {
   .retangulo {
