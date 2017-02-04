@@ -6678,6 +6678,10 @@ nav {
   background-repeat: repeat;
   background-attachment: fixed; }
 
+.pot {
+  margin-bottom: 0;
+  padding-bottom: 60px; }
+
 .servicos {
   background: url(../img/line.svg) #424242;
   background-repeat: no-repeat;
