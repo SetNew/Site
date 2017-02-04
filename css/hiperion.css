@@ -6665,11 +6665,8 @@ nav {
     font-size: 30px;
     letter-spacing: 0.1em; }
 
-.logo-set {
-  font-family: logo;
-  color: #e3f2fd; }
-  .logo-set .logo-new {
-    color: #f7ac53; }
+.waves-effect.waves-light.btn.btn-cor, .waves-effect.waves-light.btn-cor.btn-large {
+  background-color: #f7ac53; }
 
 .bgParallax {
   margin: 0 auto;

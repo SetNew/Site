@@ -17,6 +17,8 @@ nav{
 }
 
 
+
+
 // Pagina home
 .arrow{
 	margin: 0 48.2%;
@@ -47,12 +49,8 @@ nav{
 	}
 }
 
-.logo-set {
-	font-family: logo;
-	color: $cor-secundaria;
-	.logo-new {
-		color: $cor-principal;
-	}
+.waves-effect.waves-light.btn.btn-cor{
+	background-color: $cor-principal;
 }
 
 
