@@ -6751,9 +6751,6 @@ button.btn.waves-effect.envio, button.waves-effect.envio.btn-large {
   background: url("../img/line.svg") no-repeat 4px 80px, url("../img/fundo-contato.jpg");
   background-position: center top; }
 
-.formulario {
-  padding-top: 50px; }
-
 @media screen and (max-width: 600px) {
   .retangulo {
     width: 80%; }
